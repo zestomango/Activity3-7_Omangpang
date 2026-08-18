@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import StudentForm from './components/StudentForm';
+import StudentMap from './components/StudentMap';
+import StudentTable from './components/StudentTable';
 
 function App() {
   const [students, setStudents] = useState([]);
